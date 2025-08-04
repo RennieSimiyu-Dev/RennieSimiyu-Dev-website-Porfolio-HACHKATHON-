@@ -1,0 +1,304 @@
+/* This is the style.css file for the webpage */
+
+
+.header-container h1 {
+  font-size: 50px;
+  color: #f1dddd;
+  text-align: left;
+  text-transform: sentencecase;
+  margin-top: 5px;
+  margin-left: 1200px;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+  padding-top: 200px;
+} /* This is the style for the main heading of the page */
+
+.header-container h2 {
+  font-size: 70px;
+  color: #f1dddd;
+  text-align: left;
+  text-transform: sentencecase;
+  margin-top: 0px;
+  margin-left: 1200px;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+  padding-top: 0px;
+} /* This is the style for the secondary heading of the page */
+
+.header-container h3 {
+  font-size: 50px;
+  color: #f1dddd;
+  text-align: left;
+  text-transform: sentencecase;
+  margin-top: 0px;
+  margin-left: 1200px;
+  font-family: 'Arial', sans-serif;
+  padding-top: 0px;
+} /* This is the style for the tertiary heading of the page */
+
+.highlight {
+  color: #f76504; /* Highlight color */
+  font-weight: bold; /* Makes the text bold */
+}
+
+p {
+  font-size: 18px;
+  color: #fffdfd;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+} /* This is the style for paragraphs in the page */
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 5px 15px; 
+  margin: 0px 0px; 
+  justify-content: right; 
+  text-transform: sentencecase;
+  font-family: cursive;
+  font-size: 27px;
+  margin-bottom: 5px;
+} /* This is the style for the navigation bar */
+
+nav li {
+  margin: 20px 30px; /* adds space between the links */
+  margin-bottom: 10px; /* adds space below the links */
+  padding: 10px; /* adds padding around the links */
+  padding-bottom: 0px; /* adds padding below the links */
+}
+
+nav a {
+  text-decoration: none;
+  color: #faf9f9; /* optional: set your preferred color */
+  font-weight: bold;
+  transition: color 0.3s ease; /* smooth transition for hover effect */
+  
+}
+
+nav a:hover {
+  color: #f76504; /* change color on hover */
+}
+
+
+/* This is the style for the headings in different sections */
+
+.about-heading {
+  color: #f76504;
+  font-size: 70px;
+  text-transform: sentencecase;
+  text-align: center;
+  padding-top: 200px ;
+  margin-left: 300px;
+  margin-top: 0px;
+}
+
+.projects-heading {
+  color: #f76504;
+  font-size: 50px;
+  text-transform: sentencecase;
+  text-align: center;
+  padding-top: 0px ;
+}
+
+.contact-heading {
+ color: #f76504;
+  font-size: 50px;
+  text-transform: sentencecase;
+  text-align: center;
+  padding-top: 250px ;
+}
+
+
+body {
+  background-color: black;
+  color: white; /* Makes text readable on black */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.About-text {
+  font-size: 70px;
+  color: #f1dddd;
+  text-align: centre;
+  margin: 20px auto;
+  max-width: 6000px;
+} /* This is the style for the "About Me" section paragraphs */
+
+
+.intro-section {
+  background-image: url('https://st4.depositphotos.com/6375600/24258/i/450/depositphotos_242582810-stock-photo-abstract-background-waves-black-orange.jpg'); /* replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  transparent: 0.5;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 0;
+  padding: 20px 0; /* reduce this value if needed */
+}
+
+section + section {
+  margin-top: 0; /* removes extra space between consecutive sections */
+}
+
+
+#about {
+  background-color: #000000;
+  padding: 50px 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+}
+
+.about-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 200px;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 30px;
+}
+
+.about-heading {
+  font-size: 70px;
+  margin-top: 0px;
+  margin-right: 200px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+#skills {
+  background-image: url('images/bg-header.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+}
+
+
+.skills-container {
+  max-width: 1000px;
+  margin top: 0px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background image: url('https://st4.depositphotos.com/6375600/24258/i/450/depositphotos_242582810-stock-photo-abstract-background-waves-black-orange.jpg');
+  background-size: cover;
+}
+
+.skills-heading {
+  font-size: 70px;
+  margin-bottom: 5px;
+  margin-left: 300px;
+  color: #f76504;
+  padding-top: 0px;
+}
+
+.skill-category {
+  margin-bottom: 10px;
+}
+
+.skill-category h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-top: 0px;
+  padding: 10px 10px;
+  color: #f39c12; /* fun highlight color */
+}
+
+.skill-category ul {
+  list-style-type: disc;
+  font-size: 40px;
+  justify-content: center;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #993f04; /* Highlight color */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(241, 234, 234, 0.1);
+  max-width: 1000px;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+  
+
+}
+
+.project-card p{
+  font-size: 40px;
+  color: #f7f4f4; /* Text color */
+  margin-bottom: 20px;
+}
+ 
+
+.contact-heading {
+  font-size: 50px;
+  color: #f76504; /* Highlight color */
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#contact ul {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+ 
+}
+
+#contact li {
+  margin-bottom: 10px;
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+#contact a {
+  color: #f76504; /* Highlight color */
+  font-weight: bold;
+  transition: color 0.3s ease; /* smooth transition for hover effect */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+
+
+
